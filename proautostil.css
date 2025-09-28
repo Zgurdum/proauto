@@ -1,0 +1,535 @@
+.site-description {
+  display: none;
+	margin-top: 30px;/* Hidden on all screens by default */
+}
+/*Crna podloga(dark mode) ili bijela slova*/
+body{
+	background-color: #242525 !important
+}
+a {
+    color: white !important; 
+}
+h3 {
+    color: white !important; 
+}
+h2 {
+	color: white !important;
+}
+h1 {
+    color: white !important; /* Light blue for links */
+}
+.su-image-carousel-item-content img{
+	padding: 0px !important;
+}
+.su-spoiler-title{
+	background-color: #242525 !important;
+	color: white !important;
+}
+.su-spoiler-content{
+	background-color: #242525 !important;
+	color: white !important;
+}
+.su-spoiler-content td{
+	background-color: #242525 !important;
+	color: white !important;
+}
+.su-spoiler-style-fancy{
+	background-color: #242525 !important;
+	border-radius: 10px;
+}
+#header-right-widget-area{
+	background-color: #abb8c3 !important;
+}
+.supsystic-table{
+	color: black !important;
+}
+.post{
+	background-color: #242525 !important;
+	color: white !important;
+}
+.page{
+	background-color: #242525 !important;
+}
+
+.even{
+	background-color: #242525 !important;
+}
+.post p{
+	color: white !important;
+}
+.post h1{
+	color: white !important;
+}
+.su-column-inner{
+	background-color: #242525 !important;
+}
+.entry-content{
+	color: white;	
+}
+tbody{
+	background-color: #242525 !important;
+}
+.tbody{
+	background-color: #242525 !important;
+}
+.site-main{
+	background-color: #242525 !important;
+}
+.table td{
+	background-color: #242525 !important;
+}
+.table tr{
+	background-color: #242525 !important;
+}
+.table tbody{
+	background-color: #242525 !important;
+}
+tbody tr{
+	background-color: #242525 !important;
+}
+.su-tabs-nav span{
+	color: black !important;
+}
+.su-tabs-panes strong{
+	color: black !important;
+	padding: 5px;
+}
+.site-info{
+	display: none !important;
+}
+.site-header{
+	height: 200px
+	padding-top: 20px !important;
+	padding-bottom: 30px !important;
+
+}
+
+.site-header{
+	padding-top: 20px !important;
+}
+
+.widget{
+	background-color: #242525 !important;
+}
+.widget-title{
+	color: white !important;
+}
+span{
+	color: white !important;
+}
+strong{
+	color: white !important;
+}
+#supsystic-table-45_85904{
+	background-color: #242525 !important;
+}
+.codeneric_uam_image {
+	padding-left: 15px;
+	padding-right: 15px;
+}	
+.site-content{
+	background-color: #242525;
+}
+.entry-footer{
+	display: none;
+}
+
+.su-custom-gallery-slide img{
+	padding: 0px !important;
+}
+.cycle-caption{
+	background-color: rgba(20,20,20,0.8) !important;
+	border: 1px black;
+	border-radius: 15px;
+}
+/* For all headings inside Cycle Slideshow */
+.cycle-slideshow h1,
+.cycle-slideshow h2,
+.cycle-slideshow h3,
+.cycle-slideshow h4,
+.cycle-slideshow h5,
+.cycle-slideshow h6 {
+  font-size: 24px !important; /* Change to your desired size */
+  line-height: 1.3;
+}
+
+/* More specific targeting if needed */
+.cycle-slideshow .slide-content h2 {
+  font-size: 28px !important;
+  font-weight: 700;
+}
+
+/* For captions specifically */
+.cycle-caption h3 {
+  font-size: 20px !important;
+}
+
+
+.cycle-caption p {
+    display: none; /* Hides the paragraph */
+}
+.proau-highlight-wrapper{
+	margin-top: 10px
+}
+
+.latest-news-title{
+	font-size: 15px;
+  overflow: hidden;
+  max-width: 75ch;
+	max-height: 4.3ch;
+  
+}
+
+
+.entry-content p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*Stil za stranicu cijene novi automobila(TREBA POPRAVIT I DORADIT)*/
+
+#supsystic-table-685 th{
+	border: none !important;
+}
+#supsystic-table-686_61843 td{
+	border: none !important;
+}
+.htMiddle{
+	border: none !important;
+}
+.htMiddle img{
+	margin-top: 15px !important;
+}
+#supsystic-table-686_61843 tr{
+	border: none !important;
+}
+#supsystic-table-685-wrapper{
+	border: 1px solid grey !important;
+}
+#supsystic-table-686_wrapper{
+	border-radius: 10px
+}
+#supsystic-table-686_51331{
+	border-radius: 15px !important;
+}
+#supsystic-table-686 {
+	border: none;
+}	
+#supsystic-table-686 thead{
+	display: none;
+}
+.even{
+	border-bottom: none !important;
+}
+/*Stil za cijene novih automobila glavni(ako se bude pravilo ovdje onda zavrsit ovdje*/
+#supsystic-table-44 .even{
+	display: none !important;
+}
+
+/* Target the text directly */
+.widget-title,
+.widget-title a, /* If it contains links */
+.widget-title span { /* If it contains spans */
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+  position: relative; /* Helps with z-index */
+  z-index: 1; /* Brings text to foreground */
+}
+
+.widget-title:hover,
+.widget-title:hover a,
+.widget-title:hover span {
+  color: #ab5565;
+	text-decoration: underline !important;/* Your hover color */
+}
+
+/* Fix for background elements interfering */
+.widget-title::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Keeps background behind text */
+}
+
+.tab-recent{
+	display: none;
+}
+
+.tab-comments{
+	display: none;
+}
+
+body.category .entry-content-wrapper p {
+  display: none;
+}
+body.category .entry-content-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    flex-wrap: nowrap !important; /* Changed from wrap to prevent stacking */
+    gap: 20px !important;
+}
+body.category article{
+	padding: 0px !important;
+}
+
+/* Forces entry-header to the right */
+body.category .entry-content-wrapper .entry-header {
+    margin-left: auto !important;
+    order: 2 !important;
+    text-align: right !important;
+    width: auto !important;
+		flex-direction: column !important;	
+}
+body.category .entry-content-wrapper .entry-meta{
+	text-align: left !important;
+
+
+}
+/* Forces all links to stay left and maintain size */
+body.category .entry-content-wrapper a {
+    display: inline-block !important;
+    text-align: left !important;
+    margin-right: auto !important;
+    flex-shrink: 0 !important;
+    object-fit: cover !important;
+    max-width: 100% !important;
+	
+}
+body.category .entry-content-wrapper img{
+	border: 2px solid;
+	border-radius: 12px;
+}
+
+body.category .entry-content-wrapper img:hover {
+    transform: scale(1.03) !important; /* 10% enlargement */
+    transition: transform 0.3s ease !important; /* Smooth animation */
+    z-index: 10 !important; /* Ensures enlarged element stays on top */
+}
+.textwidget > table > tbody > tr > td {
+	border-top-left-radius: 20px !important;
+	border-top-right-radius: 20px !important;
+	
+}
+.even{
+	space
+}
+
+.textwidget img:hover {
+    transform: scale(1.1) !important;
+    transition: transform 0.3s ease !important;
+}
+.clear-fix{
+		top: 0;
+		position: sticky;
+		z-index: 1005 !important;
+		max-height: 200vh; /* Limit to viewport height */
+
+}
+
+/* RJESENJE ZA DUGMICE POLOVNI I TESTOVI/" */
+.custom-html-widget a[href*="/category/polovni/"] {
+		border: 2px solid;
+		border-radius: 12px !important;
+		padding: 10px !important;
+		text-decoration: none !important;
+		display: inline-block !important; /* Required for transform */
+    transition: transform 0.3s ease !important;
+		
+    background: rgb(146, 40, 38) !important;
+    /* Styles here won't affect other links */
+}
+.custom-html-widget a[href*="/category/polovni/"]:hover {
+    transform: scale(1.1) !important;
+    z-index: 1 !important; /* Keeps it above other elements */
+		border: 2px solid rgb(146, 40, 38);
+    outline: 2px solid rgba(0,0,0,0.1) !important;
+	color: white !important;/* Optional: visual emphasis */
+}
+.custom-html-widget a[href*="/category/test/"] {
+		border: 2px solid;
+		border-radius: 12px !important;
+		padding: 10px !important;
+		text-decoration: none !important;
+		display: inline-block !important; /* Required for transform */
+    transition: transform 0.3s ease !important;
+		
+    background: rgb(146, 40, 38) !important;
+    /* Styles here won't affect other links */
+}
+.custom-html-widget a[href*="/category/test/"]:hover {
+    transform: scale(1.1) !important;
+    z-index: 1 !important; /* Keeps it above other elements */
+		border: 2px solid rgb(146, 40, 38);
+    outline: 2px solid rgba(0,0,0,0.1) !important;
+	color: white !important;/* Optional: visual emphasis */
+}
+.textwidget td{
+
+	border: none !important;
+}
+.htMiddle {
+	padding: 3px !important;
+	padding-top: 0 !important;
+	margin: 0 !important;
+}
+.htCenter{
+	padding-top: 0 !important;
+	margin: 0 !important;
+}
+.page-numbers{
+	background-color: #c11f1f !important;
+}
+.prev.page-numbers{
+	background-color: #c11f1f !important;
+}
+.page-numbers.dots{
+	background-color: #c11f1f !important;
+}
+.next.page-numbers{
+	background-color: #c11f1f !important;
+}
+@media only screen and (max-width: 600px) {
+	.site-branding{
+		height: 100px;
+	}
+	.latest-news-title{
+		font-size: 16px !important;
+	}
+	.site-description {
+    display: none;
+		margin: 0;
+    color: white;
+		font-size: 18px;
+		font-style:normal;
+		
+  }
+	.menu-toggle{
+		text-align: left;
+	}
+	.proau-highlight-wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.site-header{
+		height: 220px !important;
+		padding-top: 20px !important;
+		padding-bottom: 0px !important;
+	}
+	.header-widget{
+		padding-top: 0px !important;
+	}
+	.main-navigation{
+		top: 0;
+		position: sticky;
+	}
+	.clear-fix{
+		top: 0;
+		position: sticky;
+		z-index: 1002;
+		max-height: 100vh; /* Limit to viewport height */
+    overflow-y: auto;
+	}
+	.cycle-caption h{
+		font-size: 20px !important;
+	}
+	.cycle-caption {
+		font-size: 25px !important;
+	}
+	.site-content{
+		padding-top: 0px !important;
+	}
+	.post img{
+		width: 350px !important;
+	}
+	.post p{
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    white-space: normal !important;	
+	}
+	/*MOBITEL KATEGORIJA LAYOUT*/
+	body.category .entry-content-wrapper p {
+  	display: none !important;
+	}
+	body.category .entry-content-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    flex-wrap: nowrap !important; /* Changed from wrap to prevent stacking */
+    gap: 20px !important;
+	}
+  body.category .entry-content-wrapper {
+    flex-direction: column !important;
+		margin: 0 !important;
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+    
+  body.category .entry-header {
+		margin-left: 15px !important;
+    order: 2 !important;
+    text-align: left !important;
+    width: 100% !important;
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+  }
+    
+  body.category .entry-content-wrapper > a 	{
+    order: 1 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+	body.category article{
+		padding: 0px !important;
+	}
+	.page-title{
+		padding-left: 15px !important;
+	}
+  .su-custom-gallery {
+    width: 80% !important;
+    max-width: 100vw !important; /* Prevents horizontal overflow */
+    margin: 0 !important;
+    padding: 0px !important;
+    box-sizing: border-box !important; /* Ensures padding doesn't expand width */
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0px !important;
+  }
+	.su-custom-gallery-slide img{
+		padding: 0px !important;
+	}
+	.cycle-caption{
+		background-color: rgba(20,20,20,0.8) !important;
+		border: 1px black;
+		border-radius: 10px;
+		bottom: 10px !important;
+		padding-bottom: 10px !important;
+		padding-top: 10px !important;
+
+	}
+	/* For all headings inside Cycle Slideshow */
+	.cycle-slideshow h1,
+	.cycle-slideshow h2,
+	.cycle-slideshow h3,
+	.cycle-slideshow h4,
+	.cycle-slideshow h5,
+	.cycle-slideshow h6 {
+		font-size: 16px !important; /* Change to your desired size */
+		line-height: 1;
+	}
+
+	/* More specific targeting if needed */
+	.cycle-slideshow .slide-content h2 {
+		font-size: 16px !important;
+		font-weight: 700;
+	}
+
+	/* For captions specifically */
+	.cycle-caption h3 {
+		font-size: 16px !important;
+	}
+}
