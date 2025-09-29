@@ -2,6 +2,64 @@
   display: none;
 	margin-top: 30px;/* Hidden on all screens by default */
 }
+.su-note-inner strong{
+    mix-blend-mode: difference;
+    color: white;
+}
+
+
+.su-note-inner td{
+    mix-blend-mode: difference;
+    color: white;
+}
+.su-note-inner em{
+    mix-blend-mode: difference;
+    color: white;
+}
+}
+.su-note-inner h4{
+    mix-blend-mode: difference;
+    color: black;
+}
+.su-box p{
+    mix-blend-mode: difference;
+    color: white;
+}
+.su-box h4{
+    mix-blend-mode: difference;
+    color: white;
+}
+.su-box li{
+    mix-blend-mode: difference;
+    color: white;
+}
+
+/*Rjesenje za menije koji su predugacki da bi se prikazali*/
+@media screen and (min-width: 768px) {
+		#menu-item-951 .sub-menu {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 10px 20px;
+				width: 400px;
+		}
+
+		#menu-item-951 .sub-menu li {
+				break-inside: avoid;
+		}
+		#menu-item-952 .sub-menu {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 10px 20px;
+				width: 400px;
+		}
+
+		#menu-item-952 .sub-menu li {
+				break-inside: avoid;
+		}
+}
+
+
+
 /*Crna podloga(dark mode) ili bijela slova*/
 body{
 	background-color: #242525 !important
@@ -13,6 +71,9 @@ h3 {
     color: white !important; 
 }
 h2 {
+	color: white !important;
+}
+h4 {
 	color: white !important;
 }
 h1 {
@@ -40,9 +101,7 @@ h1 {
 #header-right-widget-area{
 	background-color: #abb8c3 !important;
 }
-.supsystic-table{
-	color: black !important;
-}
+
 .post{
 	background-color: #242525 !important;
 	color: white !important;
@@ -65,6 +124,19 @@ h1 {
 }
 .entry-content{
 	color: white;	
+}
+#comments{
+	background-color: #242525 !important;
+}
+.comment-body{
+	background-color: #242525 !important;
+	color: white;
+
+}
+
+/*velicina naslova u vijestima*/
+.entry-title{
+	font-size: 23px !important;
 }
 tbody{
 	background-color: #242525 !important;
@@ -301,7 +373,6 @@ body.category .entry-content-wrapper a {
 	
 }
 body.category .entry-content-wrapper img{
-	border: 2px solid;
 	border-radius: 12px;
 }
 
@@ -533,3 +604,13 @@ body.category .entry-content-wrapper img:hover {
 		font-size: 16px !important;
 	}
 }
+
+
+
+
+
+
+
+
+
+
